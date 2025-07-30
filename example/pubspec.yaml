@@ -22,7 +22,7 @@ dev_dependencies:
   dart_flutter_team_lints: ^3.0.0
 
   # REQUIRED!
-  flexible_json_serializable:
+  json_serializable:
     path: ../json_serializable
 
 
@@ -33,7 +33,7 @@ dev_dependencies:
 # This section is used to verify changes to these packages. Do not include in
 # your code!
 dependency_overrides:
-  flexible_json_serializable:
+  json_serializable:
     path: ../json_serializable
   json_annotation:
     path: ../json_annotation
